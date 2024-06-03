@@ -1,17 +1,93 @@
 body {
-    margin:0;   
+
+    margin:0;  
+    background-image: url(imagens/Foto_Fluxo2.png);
 }
-.cabecalho{
+.head{ 
+    justify-content: center;
+    background-color: black;
+    height: 15vh;
+    width: 100% ;
+    display:flex;
+    justify-content: space-around;
+    padding: 20px 0 ;
+}
+.logo{ 
+    display: flex;
+
+}
+.logo-fluxo{
+    height: 10vh ;
+    width: 5vi;
+
+}
+.fluxo-social{
+    color: white;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
     
 }
+.happening {
+    color: orangered;
+    font-family:  Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif  ;
+    justify-content:right;
+}
 .main-login{
-    height: 50vh;
+    height: 10vh;
     width: 50vw;    
     display: flex;
+    justify-content: flex-end;
+    
 }
 .left-login{
-    display: flex;
+    display: block;
+    justify-content: space-around;
+}
+.precapa{
+    height: 210px;
 }
 .right-login{
     display: flex;
+}
+.btn-login{
+    width: 240px;
+    height: 55px;
+    border-radius: 10px;
+    background-color: orangered;
+    color: white;
+    cursor: pointer;
+    display: block;
+}
+.btn-google{
+    width: 125px;
+    height: 20px;
+    border-radius: 10px ;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    display: inline;
+}
+.btn-apple{
+    width: 125px;
+    height: 20px;
+    border-radius: 10px ;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    display: inline;
+}
+.form{
+    width: 250px;
+    border-radius: 100px;
+}
+
+.main-footer{
+    display:flex;
+
+    background-color: black;
+    padding-top: 28px;
+    bottom: 10px;
+    position: fixed;
+    align-items: end;
+    justify-content:center; 
+    bottom: 0%;
 }
