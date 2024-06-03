@@ -1,0 +1,17 @@
+body {
+    margin:0;   
+}
+.cabecalho{
+    
+}
+.main-login{
+    height: 50vh;
+    width: 50vw;    
+    display: flex;
+}
+.left-login{
+    display: flex;
+}
+.right-login{
+    display: flex;
+}
