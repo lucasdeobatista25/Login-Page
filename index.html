@@ -5,29 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SocialFluxo</title>
     <link rel="stylesheet" href="styles.css"></link>
-    <script href="script.js"></script>
+    <script type="text/javascript"href="script.js"></script>
 </head>
 <body>
-    <div class="cabecalho">
-        <div></div>
-        <div></div>
-        <div></div>
-    </div>
+
+    <header class="head">
+        <div class="logo">
+            <div class="logo-fluxo">
+                <img class="logo-fluxo"src="imagens/logoFluxo.png">
+            </div>
+            <div class="fluxo-social">
+                <h1>FluxoSocial</h1>
+            </div>
+        </div>
+        <div class="happening"><h1>It's happening now</h1></div>
+        
+    </header>
     <div class="main-login">
         <div class="left-login">   
             <div><h1>Faça seu login!<h1></div>
+            <div><img class="precapa" src="imagens/Pré-Capa.png" alt=""></div>
         </div>
         <div class="right-login">
-            <div id="card-login">
-                <div id="text-field"> 
-                    <label for="email"></label>Email</label> <br>
-                    <input type="text" name="usuario" placeholder="Digite seu email"> <br>
-                    <label for="senha">Senha</label> <br>
+            <div class="card-login">
+                <div class="text-field">
+                    <form>
+                    <form class="form" for="email"><h2>Email</h2></form>
+                    <input type="text" name="usuario" placeholder="Digite seu email">
+                    <form class="form" for="senha"><h2>Senha</h2></label> 
                     <input type="password" name="senha" placeholder="Digite sua senha">
                 </div>
-                <button class="btn-login">Entrar</button>
+                <button class="btn-login">Entrar </button>
+                <button class="btn-google"><img height="10px"src="imagens/logoGoogle.png"> com o Google</button>
+                <button class="btn-apple">Entrar com Apple</button>
+            </form>
             </div>
         </div>
     </div>
+<footer class="main-footer">
+    <a href="https://fluxoconsultoria.poli.ufrj.br" target="_blank">Sobre</a>
+    <a href="https://fluxoconsultoria.poli.ufrj.br" target="_blank">Central de Ajuda</a>
+    <a href="https://fluxoconsultoria.poli.ufrj.br" target="_blank">Termos de Serviço</a>
+    <a href="https://fluxoconsultoria.poli.ufrj.br" target="_blank">Política de privacidade</a>
+    <a href="https://fluxoconsultoria.poli.ufrj.br" target="_blank">Acessebilidade</a>
+    <a href="https://fluxoconsultoria.poli.ufrj.br" target="_blank">Política de cookies</a>
+</footer>    
 </body>
 </html>
